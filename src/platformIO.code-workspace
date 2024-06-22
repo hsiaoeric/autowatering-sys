@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "forEsp32MQTTclient",
+			"path": "../../forEsp32/forEsp32MQTTclient"
+		},
+		{
+			"name": "autowatering sys",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
