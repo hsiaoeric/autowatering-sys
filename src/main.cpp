@@ -7,6 +7,7 @@
 #include <Arduino.h>
 #include <UniversalTelegramBot.h>
 #include "wifi_MQTT_stuff.h"
+#include "secrets.h"
 
 #define soilPIN A0    // Digital pin connected to the DHT sensor
 #define soilPowerPIN 10
@@ -15,7 +16,6 @@
 #define MQTT_PORT 1883
 #define MQTT_PUB_SOIL "esp8266/soilW"
 
-#define BOTtoken "7250313678:AAHaIIbkEH5nUDcRABepckuwrLcMxI8Xr3w"  // your Bot Token (Get from Botfather)
 
 UniversalTelegramBot bot(BOTtoken, client);
 

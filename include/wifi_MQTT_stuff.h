@@ -12,6 +12,7 @@
 extern WiFiEventHandler wifiConnectHandler;
 extern WiFiEventHandler wifiDisconnectHandler;
 extern Ticker wifiReconnectTimer;
+
 // Generally, you should use "unsigned long" for variables that hold time
 // The value will quickly become too large for an int to store
 extern unsigned long previousMillis;    // will store last time DHT was updated

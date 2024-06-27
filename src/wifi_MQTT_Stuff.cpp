@@ -8,8 +8,7 @@
 #include <Ticker.h>
 
 
-const char* WIFI_SSID = "HONG";
-const char* WIFI_PASSWORD = "0921315277";
+
 
 // Generally, you should use "unsigned long" for variables that hold time
 // The value will quickly become too large for an int to store
