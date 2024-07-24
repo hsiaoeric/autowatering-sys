@@ -10,6 +10,10 @@
 		{
 			"name": "autowatering sys",
 			"path": ".."
+		},
+		{
+			"name": "massive auto watering",
+			"path": "../../../../Documents/PlatformIO/Projects/massive auto watering"
 		}
 	],
 	"settings": {}
